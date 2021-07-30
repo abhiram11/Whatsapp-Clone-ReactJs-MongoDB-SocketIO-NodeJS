@@ -1,0 +1,22 @@
+.conversation {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 3;
+  background: #f6f7f8;
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: row;
+  background: #ededed;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.profileImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}

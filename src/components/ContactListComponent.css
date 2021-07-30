@@ -1,0 +1,48 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  flex: 1.6;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: row;
+  background: #ededed;
+  padding: 10px;
+}
+
+.profileImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.searchBox {
+  background: #f6f6f6;
+  padding: 10px;
+  display: flex;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 16px;
+  padding: 5px 10px;
+  width: 100%;
+  /* //wtf code  */
+}
+
+.searchIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.searchInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
