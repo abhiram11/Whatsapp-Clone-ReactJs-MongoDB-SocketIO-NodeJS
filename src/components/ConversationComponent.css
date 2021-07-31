@@ -20,3 +20,72 @@
   height: 32px;
   border-radius: 50%;
 }
+
+.chatBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 16px;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.searchInput {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.emojiImage {
+  width: 28px;
+  height: 28px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #e5ddd6;
+  overflow-y: auto;
+}
+
+.messageDiv1 {
+  display: flex;
+  margin: 5px 15px;
+  justify-content: flex-end;
+}
+
+.messageDiv2 {
+  display: flex;
+  margin: 5px 15px;
+  justify-content: flex-start;
+}
+
+.message1 {
+  background: #daf8cb;
+  max-width: 50%;
+  color: #303030;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #daf8cb;
+}
+
+.message2 {
+  background: #daf8cb;
+  max-width: 50%;
+  color: #303030;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+}

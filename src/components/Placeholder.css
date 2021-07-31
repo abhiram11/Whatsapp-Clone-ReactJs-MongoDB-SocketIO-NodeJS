@@ -1,0 +1,22 @@
+.placeholder {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: (0, 0, 0, 0.45);
+  gap: 10px;
+}
+
+.chatPlaceholder {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.placeholder > span {
+  font-size: 32px;
+  color: #525252;
+}

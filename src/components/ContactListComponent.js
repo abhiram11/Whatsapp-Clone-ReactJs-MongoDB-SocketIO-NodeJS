@@ -1,8 +1,8 @@
 import ContactComponent from "./ContactComponent";
+import { contactList } from "../mockData";
 import "./ContactListComponent.css";
-// const ProfileInfoDiv =
 
-const ContactListComponent = () => {
+const ContactListComponent = (props) => {
   return (
     <div className="contact">
       <div className="profileInfo">
@@ -26,7 +26,9 @@ const ContactListComponent = () => {
           />
         </div>
       </div>{" "}
-      <ContactComponent />
+      {contactList.map((userData) => (
+        <ContactComponent userData={userData} setChat={props.setChat} />
+      ))}
       "ContactListComponent"
     </div>
   );

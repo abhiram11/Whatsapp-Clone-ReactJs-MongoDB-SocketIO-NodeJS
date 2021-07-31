@@ -1,18 +1,20 @@
 import "./ContactComponent.css";
 
-const ContactComponent = () => {
+const ContactComponent = (props) => {
+  const { userData, setChat } = props;
   return (
-    <div className="contactItem">
+    <div className="contactItem" onClick={() => setChat(userData)}>
       <img
         className="profileIcon"
-        src="https://avatars.githubusercontent.com/u/20269286?v=4"
+        // src={userData?.profilePic}
+        src={"https://avatars.githubusercontent.com/u/20269286?v=4"}
         alt="Profile Icon"
       />
       <div className="contactInfo">
-        <span className="contactName">Abhi Ram</span>
-        <span className="messageText">Satpute</span>
+        <span className="contactName">{userData?.name}</span>
+        <span className="messageText">{userData?.lastText}</span>
       </div>
-      <span className="messageTime">1:00pm</span>
+      <span className="messageTime">{userData?.lastTextTime}</span>
     </div>
   );
 };
