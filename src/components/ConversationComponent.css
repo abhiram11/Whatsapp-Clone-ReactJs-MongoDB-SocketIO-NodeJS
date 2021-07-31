@@ -24,6 +24,10 @@
 .chatBox {
   display: flex;
   flex-direction: row;
+  background: #f0f0f0;
+  padding: 10px;
+  align-items: center;
+  bottom: 0;
 }
 
 .searchContainer {

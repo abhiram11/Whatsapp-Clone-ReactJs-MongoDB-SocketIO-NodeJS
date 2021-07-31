@@ -29,7 +29,6 @@ const ContactListComponent = (props) => {
       {contactList.map((userData) => (
         <ContactComponent userData={userData} setChat={props.setChat} />
       ))}
-      "ContactListComponent"
     </div>
   );
 };
